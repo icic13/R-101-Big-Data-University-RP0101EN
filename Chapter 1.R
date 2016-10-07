@@ -85,3 +85,4 @@ movie_matrix <- matrix(movie_vector,nrow = 3, ncol = 3, byrow = TRUE)
 movie_matrix
 movie_matrix <- matrix(movie_vector,nrow = 3, ncol = 3)
 movie_matrix
+movie_matrix[2:3,1:2]
