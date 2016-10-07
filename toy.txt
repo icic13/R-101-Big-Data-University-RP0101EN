@@ -1,0 +1,9 @@
+csvfile <- read.csv("movie.csv")
+csvfile
+install.packages("readxl")
+csvfile['name']
+csvfile[1,]
+data()
+#Reading text .txt file
+download.file("https://ibm.box.com/shared/static/n5ay5qadfe7e1nnsv5s01oe1x62mq51j.csv",destfile="movies-db.csv")
+download.file("https://ibm.box.com/shared/static/n5ay5qadfe7e1nnsv5s01oe1x62mq51j.csv",destfile = "movies.csv")
